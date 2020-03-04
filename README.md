@@ -2,10 +2,12 @@
 
 ## TRON-Family commandline tool
 
-### Commands:
+## Download
+https://www.tron-family.de
 
-#### Wallet
+# Commands:
 
+### Wallet
 -account <walletaddress>
 -trx <amount> <destinationaddress> <privatekey>
 -trc10 <amount> <destinationaddress> <privatekey> <tokenid> <precision>
@@ -15,8 +17,7 @@
 -freeze <amount> <resource> <privatekey>
 -unfreeze <resource> <privatekey>
 
-#### Trading
-
+### Trading
 -polonidexpairs
 -polonidexorderbook <pairid>
 -polonidexopenorder <walletaddress> optional:<pairid>
@@ -24,7 +25,7 @@
 -polonidexsell <pairid> <amount> <price> <privatekey>
 -polonidexcancel <orderid> <privatekey>
 
-#### Convert
+### Convert
 
 -abiaddressencode <address>
 -abiaddressdecode <hex>
@@ -33,7 +34,7 @@
 -toHexAddress <walletaddress>
 -toBase58Address <hexaddress>
 
-#### Batchsend
+### Batchsend
 
 -batch <importfile.csv> <privatekey> optional: /v (verify)
 -createimportfile <filename>
